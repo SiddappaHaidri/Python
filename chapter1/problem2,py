@@ -1,0 +1,8 @@
+import os
+# This code lists all the files and directories in the specified directory path.
+directory_path = "C:\Users\siddu\OneDrive\Desktop\Phyton"
+# Using the os.listdir() function to get the list of files and directories in the specified path
+contents = os.listdir(directory_path)
+ #using a for loop to print each item in the contents list
+for item in contents:
+    print(item)
